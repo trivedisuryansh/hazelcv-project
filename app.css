@@ -1,0 +1,134 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "forum",cursive;
+}
+.hero{
+  background-color: #f08e80;
+  min-height: 90vh;
+  color: white;
+  display: inline-block;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 24px 32px;
+}
+.navbar .link a{
+  color: white;
+  text-decoration: none;
+  margin-right: 16px;
+  font-size: 1.2rem;
+}
+.navbar p{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+}
+.contact{
+  background-color: aliceblue;
+  color: #f08e80;
+  padding: 16px 24px;
+  text-decoration: none;
+}
+.navbar .contact:hover{
+  opacity: 0.8;
+}
+.herocontent{
+  padding:0 15%;
+}
+.tagline{
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 2px; 
+  padding: 32px 0;
+}
+.twocoloumsection{
+  font-size: 1.25rem;
+}
+.twocoloumsection > p {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+.twocoloumsection .skills{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 0;
+    list-style: none;
+}
+.twocoloumsection .skills li{
+  width: 50%;
+  float: left;
+  font-size: 1.25rem;
+  margin: 8px 0;
+}
+.blogsection{
+  background-color: white;
+  padding: 64px 0;
+}
+.blogcontent{
+  padding: 0 15%;
+}
+.twocoloumsection .blogposts{
+  width: 50%;
+  float: left;
+}
+.blogheading{
+  font-size: 1.5rem;
+}
+.blogtext{
+  font-size: 1rem;
+}
+
+.blogposts .blogdate{
+  color: grey;
+  margin-bottom: 32px;
+}
+.blogposts p{
+   margin: 8px 0;
+}
+.event-section{
+  background-color: #fdf0e6;
+  padding: 64px 0;
+  display: inline-block;
+  width: 100%;
+}
+.event-content{
+  padding: 0 15%;
+}
+.event-card {
+  width: 50%;
+  float: left;
+  margin-top:24px ;
+}
+.eevent-card p {
+  margin: 8px 0;
+}
+.eevent-title{
+  font-size: 1.5rem;
+}
+.eevent-location{
+  font-size: 1rem;
+}
+.eevent-date{
+  font-size: 0.9rem;
+  color: grey;
+  margin-bottom: 32px;
+}
+footer{
+  background: black;
+  color: white;
+  padding: 10px;
+}
+.footercontent{
+  text-align: center;
+}
+footer img{
+  width: 2rem;
+  height: 2rem;
+  margin: 0 8px;
+}
